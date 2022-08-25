@@ -10,6 +10,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <AllRoutes/>
+      
     </ChakraProvider>
   );
 }
