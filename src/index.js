@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
 import "modern-normalize/modern-normalize.css";
+import AppContextProvider from '../src/Context/AppContext';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
@@ -14,7 +15,9 @@ root.render(
   <StrictMode>
     <BrowserRouter>
     <ColorModeScript />
+    <AppContextProvider>
     <App />
+    </AppContextProvider>
     </BrowserRouter>
   </StrictMode>
 );

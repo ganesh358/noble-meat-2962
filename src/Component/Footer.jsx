@@ -46,12 +46,12 @@ export default function Footor(){
         setIsHovering5(false);
       };
     return (
-        <Grid>
+        <Grid boxShadow='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'>
 
-        <Flex  h='26.5rem' w='100%' textAlign='center' gap='8rem'>
+        <Flex    h='26.5rem' w='100%' textAlign='center' gap='8rem'>
              <Box  w='30%'  mt='5rem'>
                   <Text fontSize='17px' ml='-2' fontWeight='500' color='#222222'>INFORMATION</Text>
-                <Grid textAlign='left' ml='6.5rem' lineHeight='2rem' fontWeight='500' color='#7d7d7d' fontSize='15px'>
+                <Grid _hover={{color:"#e5b95f"}} textAlign='left' ml='6.5rem' lineHeight='2rem' fontWeight='500' color='#7d7d7d' fontSize='15px'>
                   <Link  to='/'>About Us</Link>
                   <Link to='/' >Associated Brands</Link>
                   <Link to='/'>Associated Brands</Link>
@@ -63,7 +63,7 @@ export default function Footor(){
                   <Link to='/'>Privacy Policy</Link>
                   </Grid>
              </Box>
-             <Box textAlign='left'  w='28%'  mt='5rem' >
+             <Box  textAlign='left'  w='28%'  mt='5rem' >
                   <Text  fontSize='17px' fontWeight='500' color='#222222'>CUSTOMER CARE</Text>
                   <Text   fontWeight='500' color='#7d7d7d' fontSize='15px' mt='2' display='flex'>Call : <Text color='#222222' fontWeight='600'>022-6805-6010</Text> </Text>
                   <Text   fontWeight='500' color='#7d7d7d' fontSize='15px' >(Monday to Friday : 9 AM - 7 PM).</Text>
@@ -78,7 +78,7 @@ export default function Footor(){
              </Box>
         </Flex>
         
-         <Box h='4rem' display='flex' alignItems='center' justifyContent='center' gap='2'>
+         <Box  h='4rem' display='flex' alignItems='center' justifyContent='center' gap='2'>
              <div className="Foot" style={{
                 // backgroundColor:"#E8E8E8",
                 paddingLeft:"1rem",
@@ -111,7 +111,7 @@ export default function Footor(){
                 paddingTop:".5rem",
                 width:"2.4rem",
                 height:'2.4rem',
-                backgroundColor: isHovering2 ? '#d53f72' : '#E8E8E8',
+                background: isHovering2 ? 'linear-gradient(to top right, #33ccff 0%, #ff33cc 100%)' : '#E8E8E8',
                 color: isHovering2 ? 'white' : '#222222',
              }}
              onMouseEnter={handleMouseEnter2}
