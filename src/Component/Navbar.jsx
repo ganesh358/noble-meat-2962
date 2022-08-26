@@ -1,5 +1,5 @@
-import { Box, Flex, Img, Input, Text, useDisclosure } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Box, Flex, Img, Input, Popover, PopoverBody, PopoverCloseButton, PopoverContent, PopoverTrigger, Text, useDisclosure } from "@chakra-ui/react";
+import {Link} from "react-router-dom"
 import React from "react";
 import {
     Modal,
@@ -36,7 +36,7 @@ function Navbar(){
                  </Box>
                   <Box >
                     
-                    <Flex pr='5' gap='1rem' fontSize='1.2rem' pt='3'>
+                    <Flex pr='5' gap='1.3rem' fontSize='1.25rem' pt='3'>
                     <Box >
                    
 
@@ -61,7 +61,28 @@ function Navbar(){
                     <ion-icon name="heart-outline">
 
                     </ion-icon>
+                    <Popover>
+                    
+                    <PopoverTrigger>
                     <ion-icon name="person-circle-outline"></ion-icon>
+                    </PopoverTrigger>
+                    <PopoverContent mt='1rem' mr='2rem' w='13rem' h='13rem'>
+                  
+                      <PopoverCloseButton />
+                      <PopoverBody mt='1rem' color='black' fontSize='1rem'> Languages:  En    Fr</PopoverBody>
+                      <hr/>
+                      <PopoverBody color='black' fontSize='1.1rem'>Checkout</PopoverBody>
+                      <hr/>
+                      <Link to='/login'>
+                      <PopoverBody color='black' fontSize='1.1rem'>Sign In</PopoverBody>
+                      </Link>
+                      <hr/>
+                      <Link to='/account' >
+                      <PopoverBody color='black' fontSize='1.1rem' >Create An Account</PopoverBody>
+                      </Link>
+                    </PopoverContent>
+                  </Popover>
+              
                     <ion-icon name="cart-outline"></ion-icon>
                  </Flex> 
                  </Box>
