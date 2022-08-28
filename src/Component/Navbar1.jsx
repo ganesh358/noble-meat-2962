@@ -25,7 +25,9 @@ function Navbar1(){
     
          <Flex bg='white' position='fixed' zIndex='1'  boxShadow='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' w='100%' h='5rem' justifyContent='space-between' color='black'pl='1rem' pr='1rem'   pt='1.8rem' >
                  <Box  pt='0' pl='3'>
+                 <Link to='/products/subscribe'>
                      <Text fontSize='18px'fontWeight='700'>SUBSCRIBE NOW</Text>
+                     </Link>
                  </Box>
                  <Box h='2.8rem'>
                     <Link to='/'>
@@ -73,12 +75,15 @@ function Navbar1(){
                       <PopoverBody color='black' fontSize='1.1rem'>Sign In</PopoverBody>
                       </Link>
                       <hr/>
-                      <Link to='/account' >
+                      <Link to='/create-account' >
                       <PopoverBody color='black' fontSize='1.1rem' >Create An Account</PopoverBody>
                       </Link>
                     </PopoverContent>
                   </Popover>
                     <ion-icon name="cart-outline"></ion-icon>
+                    <Box ml='-2rem' mt='-.4rem' color='black' bg='#e5b95f'  h='1.1rem' w='1.1rem' borderRadius='2rem'>
+                    <Text  ml='.35rem' mt='-1'fontSize='.9rem'>0</Text>
+                      </Box>
                  </Flex> 
                  </Box>
          </Flex> 
