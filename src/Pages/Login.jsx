@@ -43,7 +43,7 @@ function Login() {
 
         console.log(res)
         loginUser(res.token)
-        navigate("/dashboard")
+        navigate("/")
       });
   }
 
@@ -66,20 +66,24 @@ function Login() {
 
               <Text  textAlign='center' fontSize='2rem'>Sign In</Text>
        <Box  h='30rem' mt='3rem' w='22rem' ml='31rem'>
-          <Box fontSize='.9rem' pl='5' pt='1' fontWeight='500' display='flex' justifyContent='space-between' pr='2'  h='2.4rem' color='white' bg='#3b5997' >Sign in with Facebook  <Box color='white' fontSize='2xl'><ion-icon  name="logo-facebook"></ion-icon></Box></Box>
-          <Box mt='2' fontSize='.9rem' pl='5' pt='1' fontWeight='500' display='flex' justifyContent='space-between' pr='2' h='2.4rem' color='white'  bg='#dd4b39' >Sign in with Google  <Box color='white' fontSize='2xl'> <ion-icon name="logo-google"></ion-icon></Box></Box>
+        <Link to='https://www.facebook.com/login/'>
+          <Box boxShadow='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' fontSize='.9rem' pl='5' pt='2' fontWeight='500' display='flex' justifyContent='space-between' pr='2'  h='2.4rem' color='white' bg='#3b5997' >Sign in with Facebook  <Box mt='-.2rem' color='white' fontSize='2xl'><ion-icon  name="logo-facebook"></ion-icon></Box></Box>
+          </Link>
+          <Link to='https://accounts.google.com/signin/'>
+          <Box boxShadow='rgba(100, 100, 111, 0.2) 0px 7px 29px 0px' mt='2' fontSize='.9rem' pl='5' pt='2' fontWeight='500' display='flex' justifyContent='space-between' pr='2' h='2.4rem' color='white'  bg='#dd4b39' >Sign in with Google  <Box mt='-.2rem' color='white' fontSize='2xl'> <ion-icon name="logo-google"></ion-icon></Box></Box>
+          </Link>
         <FormControl onSubmit={handleSubmit}>
        
             <Box>
          
             <FormLabel fontSize='sm' mt='1rem' color='grey'>
-            Email Address*
+            <Text display='flex'>Email Address<Text color='red'>*</Text></Text>
             <Input w='21.9rem' mt='1rem' type="email"  value={formState.email} name="email" onChange={handleChange} />
             </FormLabel>
           </Box>
           <Box >
           <FormLabel fontFamily='sm' color='grey' >
-            Password*
+          <Text display='flex'>Password<Text color='red'>*</Text></Text>
             <Input w='21.9rem' mt='1rem'  type="password"
               value={formState.password} name="password" onChange={handleChange} />
          </FormLabel>
@@ -102,9 +106,11 @@ function Login() {
           <Box w='11rem' mt='1rem' ml='2.75rem' border='1px solid grey' height='1px'></Box>
           </Box>
          <Box>
+          <Link to='/create-account'>
           <Button mt='2rem' _hover={{bg:'black',color:"white"}} w='100%' bg='#e5b95f'>
             Create an Account
           </Button>
+          </Link>
          </Box>
         </Box>
         

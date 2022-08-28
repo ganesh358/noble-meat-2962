@@ -1,5 +1,6 @@
 import { Box, Button, Flex, Grid, Img, Text } from "@chakra-ui/react";
 import { useState } from "react";
+
 import Footor from "../Component/Footer";
 import Navbar from "../Component/Navbar";
 import Navbar1 from "../Component/Navbar1";
@@ -62,11 +63,13 @@ function HomePage(){
                 <SliderFouth/>
               </Box>
               <Box mt='4rem'>
+
                 <Sliderthird/>
               </Box>
               <Text mt='2rem' textAlign='center' fontSize='xl'>#TRENDINGNOW AT THE GOSSIP CORNER</Text>
                <Box w='100%' mt='2rem' >
                    <Flex h='10.5rem' w='100%'>
+                   
                       <Img w='12rem'  src='https://scontent.cdninstagram.com/v/t51.2885-15/301251006_410879834475726_5857604691535229497_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=iN47X5DWz-YAX_jM0Uk&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-5sBFkSrtknLNDKtLGjuA_qdNeTXP8UrLGJj6uRHDKrA&oe=630E0185'/>
                       <Img src='https://scontent.cdninstagram.com/v/t51.2885-15/300780300_415744050426506_996902418346204214_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=lpzvAOdZRu8AX_cDygJ&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8cScU-HlN7pytnWaCfkG7oA35KvQfBmGfUtnxc2JnMKw&oe=630E1FD2'/>
                       <Img src='https://scontent.cdninstagram.com/v/t51.2885-15/300963745_607450630733202_2348629814306894776_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=lLhuCKYx4MUAX-xb8s3&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8KKOyyDOMH8_d1tW0JGiZCcJM-w4nLZBxPN4Zdkf29RA&oe=630DA22A'/>
@@ -75,6 +78,7 @@ function HomePage(){
                       <Img src='https://scontent.cdninstagram.com/v/t51.2885-15/300196770_424213902873071_7507176141267684495_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=QZ3XnLUnMN0AX8xotdB&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9fMwGMDC-nEFrpEZy_VE_CoXTyZ9QSMZmr_8KYNMLHuA&oe=630DB377'/>
                       <Img src='https://scontent.cdninstagram.com/v/t51.2885-15/300164026_148218927849084_5236340658953714989_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=dKP6eOk98hwAX-tT3sG&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8wPvd6TbsDofZkrH1gWKZdZ-Zzzg6k_FEk7ecs44bOTA&oe=630D3E7F'/>
                       <Img src='https://scontent.cdninstagram.com/v/t51.2885-15/300284208_614605400408686_869576934358723908_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=JMfZLEMXMqMAX_H8Ahp&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8-ZvmHeywiDzFFI6GPiEPuybafmgtjhxIKSVJ_NEKJ3Q&oe=630C4B26'/>
+                      
                    </Flex>
                </Box>
                <Box>
