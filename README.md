@@ -63,11 +63,6 @@ No of Pages  :
 
 
 
-![Screenshot (124)](https://user-images.githubusercontent.com/101578846/187055162-2e9dcb2e-cb01-478f-b141-f2ba5ccf5243.png)
-
-
-
-
 
 
 ![Screenshot (122)](https://user-images.githubusercontent.com/101578846/187055166-7b3d2e6c-6595-480c-9e8f-ed792028fe15.png)
