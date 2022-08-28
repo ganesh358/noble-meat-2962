@@ -1,3 +1,83 @@
+
+
+Project Name :  Clone of FABBAG website.
+
+No of Pages  : 
+         
+         1) HomePage
+         2) UserLogin
+         3) ProductSuscribe
+         4) Cart
+
+
+
+
+
+
+![Screenshot (117)](https://user-images.githubusercontent.com/101578846/187055129-04cf6200-e50b-4c20-b4aa-4568afa5d89b.png)
+
+
+
+
+
+
+![Screenshot (121)](https://user-images.githubusercontent.com/101578846/187055133-104daf55-1241-46ed-82a5-4d28875bba65.png)
+
+
+
+
+
+
+
+
+![Screenshot (118)](https://user-images.githubusercontent.com/101578846/187055135-8f1acdfd-058a-45eb-9fdb-ecc7b3c5c975.png)
+
+
+
+
+
+
+
+
+
+
+![Screenshot (119)](https://user-images.githubusercontent.com/101578846/187055141-bea42ec5-fa81-4638-bba9-56adb1eb1860.png)
+
+
+
+
+
+
+
+
+
+
+
+
+![Screenshot (124)](https://user-images.githubusercontent.com/101578846/187055153-5d214b2c-f31f-4760-989c-1a02b06d4d85.png)
+
+
+
+
+
+
+
+
+![Screenshot (124)](https://user-images.githubusercontent.com/101578846/187055162-2e9dcb2e-cb01-478f-b141-f2ba5ccf5243.png)
+
+
+
+
+
+
+![Screenshot (122)](https://user-images.githubusercontent.com/101578846/187055166-7b3d2e6c-6595-480c-9e8f-ed792028fe15.png)
+
+
+
+![Screenshot (123)](https://user-images.githubusercontent.com/101578846/187055168-ef4e2e61-4ec7-4694-b1a1-bc8ad23c9a31.png)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
